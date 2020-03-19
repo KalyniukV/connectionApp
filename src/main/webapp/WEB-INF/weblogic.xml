@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-web-app xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+    <container-descriptor>
+        <prefer-web-inf-classes>false</prefer-web-inf-classes>
+        <prefer-application-packages>
+            <package-name>org.apache.commons.*</package-name>
+            <package-name>com.google.common.*</package-name>
+            <package-name>org.springframework.*</package-name>
+            <package-name>org.apache.log4j.*</package-name>
+            <package-name>org.apache.ws.*</package-name>
+            <package-name>org.joda.time.*</package-name>
+        </prefer-application-packages>
+    </container-descriptor>
+    <context-root>test</context-root>
+</weblogic-web-app>
