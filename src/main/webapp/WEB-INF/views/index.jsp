@@ -13,14 +13,14 @@
     <tr>
         <th>
             <div>
-                <form id="connection1" method="get" action="/test/oracle">
+                <form id="oracle" method="get" action="/test/oracle">
                     <button type="submit">Oracle</button>
                 </form>
             </div>
         </th>
         <th>
             <div>
-                <form id="connection2" method="get" action="/test/firebird">
+                <form id="firebird" method="get" action="/test/firebird">
                     <button type="submit">Firebird</button>
                 </form>
             </div>
